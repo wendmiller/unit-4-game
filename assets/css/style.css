@@ -1,0 +1,33 @@
+
+ h1{
+    color: #ebebeb;
+    background-color: rgb(90, 11, 66);
+    font-size: 40px;
+    width: 340px;
+    /* height: 100px; */
+    position: absolute;
+    
+}
+
+section {
+    color: #000000;
+    background-color: #ffffe0;
+    font-size: 25px;
+    padding: 20px;
+    width: 495px;
+    top: 125px;
+    left: 5px;
+    position: absolute;
+
+}
+
+div {
+    color: #ebebeb;
+    background-color: #2f147a;
+    font-size: 25px;
+    padding: 20px;
+    width: 295px;
+    height: 100px;
+    top: 600px;
+    left: 5px;
+    position: absolute;
