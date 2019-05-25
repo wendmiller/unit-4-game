@@ -59,7 +59,7 @@ userScore=0;
 function createBtn()
 {
   var numberOptions = [(Math.floor(Math.random() * 12) + 1), 5, 3, 7];
-
+  var imageArray = ["Blue Crystal.jpg", "Green Crystal.jpg", "grurple crystal.jpg", "Purple Crystal.jpg"]
     // Next we create a for loop to create crystals for every numberOption.
     for (var i = 0; i < numberOptions.length; i++) {
   
@@ -71,7 +71,7 @@ function createBtn()
     // This will allow the CSS to take effect.
       imageCrystal.addClass("crystal-image");
       //<img src="" class="crystal-image">
-      imageCrystal.attr("src", "/Users/wendymiller/Desktop/Bootcamp/unit-4-game/assets/images/Blue Crystal.jpg",);
+      imageCrystal.attr("src", "assets/images/" + imageArray[i],);
       // Each imageCrystal will be given a src link to the crystal image
      
       // Each imageCrystal will be given a data attribute called data-crystalValue.
