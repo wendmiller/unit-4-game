@@ -71,7 +71,7 @@ function createBtn()
     // This will allow the CSS to take effect.
       imageCrystal.addClass("crystal-image");
       //<img src="" class="crystal-image">
-      imageCrystal.attr("src", "/Users/wendymiller/Desktop/Bootcamp/unit-4-game/assets/images/Blue Crystal.jpg",);
+      imageCrystal.attr("src", "https://photos.app.goo.gl/4caPX4fEruiyq39d8",);
       // Each imageCrystal will be given a src link to the crystal image
      
       // Each imageCrystal will be given a data attribute called data-crystalValue.
